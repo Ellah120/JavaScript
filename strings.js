@@ -55,7 +55,7 @@ console.log('Apple, Banana, Kiwi'.slice(-12));
  console.log(part);
 
 
-// this is similiar to slice and substring but the second parameter specifies the length of the extracted part...simply telling the computer to print out 7 letters from the 7th word in our case. Note the computer starts counting from 0 in all cases. it accepts negative values as its first parameter and counts backwards just as it does in the slice method and if it is just one parameter added it does the same thing as the slice and substring.
+// substr is similiar to slice and substring but the second parameter specifies the length of the extracted part...simply telling the computer to print out 7 letters from the 7th word in our case. Note the computer starts counting from 0 in all cases. it accepts negative values as its first parameter and counts backwards just as it does in the slice method and if it is just one parameter added it does the same thing as the slice and substring.
 let str = 'Apple, Banana, Kiwi';
 let part = str.substr(-4);
 console.log(part);
